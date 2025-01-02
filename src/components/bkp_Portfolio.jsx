@@ -49,7 +49,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/5.jpg"
+                              src={`${process.env.PUBLIC_URL}/assets/img/portfolio/5.jpg`}
                               alt="Vimeo"
                               onClick={() => setOpen2(true)}
                             />
@@ -69,7 +69,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/2.jpg"
+                              src={`${process.env.PUBLIC_URL}/assets/img/portfolio/2.jpg`}
                               alt="Youtube"
                               onClick={() => setOpen(true)}
                             />
@@ -89,7 +89,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/6.jpg"
+                              src={`${process.env.PUBLIC_URL}/assets/img/portfolio/6.jpg`}
                               alt="Details"
                               onClick={toggleModalThree}
                             />
@@ -109,7 +109,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/7.jpg"
+                              src={`${process.env.PUBLIC_URL}/assets/img/portfolio/7.jpg`}
                               alt="Details"
                               onClick={toggleModalFour}
                             />
@@ -132,7 +132,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/5.jpg"
+                              src={`${process.env.PUBLIC_URL}/assets/img/portfolio/5.jpg`}
                               alt="Vimeo"
                               onClick={() => setOpen2(true)}
                             />
@@ -155,7 +155,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/2.jpg"
+                              src={`${process.env.PUBLIC_URL}/assets/img/portfolio/2.jpg`}
                               alt="Youtube"
                               onClick={() => setOpen(true)}
                             />
@@ -178,9 +178,9 @@ const Portfolio = () => {
                         <li data-aos="fade-right" data-aos-duration="1200">
                           <div className="inner">
                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                              <a href="assets/img/portfolio/4.jpg">
+                              <a href={`${process.env.PUBLIC_URL}/assets/img/portfolio/4.jpg`}>
                                 <img
-                                  src="assets/img/portfolio/4.jpg"
+                                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/4.jpg`}
                                   alt="Childhood"
                                 />
                               </a>
@@ -199,9 +199,9 @@ const Portfolio = () => {
                         >
                           <div className="inner">
                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                              <a href="assets/img/portfolio/3.jpg">
+                              <a href={`${process.env.PUBLIC_URL}/assets/img/portfolio/3.jpg`}>
                                 <img
-                                  src="assets/img/portfolio/3.jpg"
+                                  src={`${process.env.PUBLIC_URL}/assets/img/portfolio/3.jpg`}
                                   alt="Besh Award"
                                 />
                               </a>
@@ -225,7 +225,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/6.jpg"
+                              src={`${process.env.PUBLIC_URL}/assets/img/portfolio/6.jpg`}
                               alt="Details"
                               onClick={toggleModalThree}
                             />
@@ -245,7 +245,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/7.jpg"
+                              src={`${process.env.PUBLIC_URL}/assets/img/portfolio/7.jpg`}
                               alt="Details"
                               onClick={toggleModalFour}
                             />
@@ -298,17 +298,17 @@ const Portfolio = () => {
       >
         <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
           <button className="close-modal" onClick={toggleModalThree}>
-            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+            <img src={`${process.env.PUBLIC_URL}/assets/img/svg/cancel.svg`} alt="close icon" />
           </button>
           {/* END CLOSE ICON */}
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src={`${process.env.PUBLIC_URL}/assets/img/thumbs/4-3.jpg`} alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/6.jpg)`,
                   }}
                 ></div>
               </div>
@@ -364,11 +364,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <img src={`${process.env.PUBLIC_URL}/img/thumbs/4-2.jpg`} alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/8.jpg)",
+                            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/8.jpg)`,
                           }}
                         ></div>
                       </div>
@@ -378,11 +378,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <img src={`${process.env.PUBLIC_URL}/img/thumbs/4-2.jpg`} alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/2.jpg)",
+                            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/2.jpg)`,
                           }}
                         ></div>
                       </div>
@@ -392,11 +392,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <img src={`${process.env.PUBLIC_URL}/img/thumbs/4-2.jpg`} alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/3.jpg)",
+                            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/3.jpg)`,
                           }}
                         ></div>
                       </div>
@@ -424,17 +424,17 @@ const Portfolio = () => {
       >
         <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
           <button className="close-modal" onClick={toggleModalFour}>
-            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+            <img src={`${process.env.PUBLIC_URL}/assets/img/svg/cancel.svg`} alt="close icon" />
           </button>
           {/* END CLOSE ICON */}
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <img src={`${process.env.PUBLIC_URL}/assets/img/thumbs/4-3.jpg`} alt="tumb" />
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                    backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/7.jpg)`,
                   }}
                 ></div>
               </div>
@@ -490,11 +490,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <img src={`${process.env.PUBLIC_URL}/img/thumbs/4-2.jpg`} alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/6.jpg)`,
                           }}
                         ></div>
                       </div>
@@ -504,11 +504,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <img src={`${process.env.PUBLIC_URL}img/thumbs/4-2.jpg`} alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/5.jpg)",
+                            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/5.jpg)`,
                           }}
                         ></div>
                       </div>
@@ -518,11 +518,11 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <img src={`${process.env.PUBLIC_URL}/img/thumbs/4-2.jpg`} alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/4.jpg)",
+                            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/portfolio/4.jpg)`,
                           }}
                         ></div>
                       </div>

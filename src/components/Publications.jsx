@@ -24,11 +24,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/021.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/021.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/021.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/021.png)`,
                     }}
                   ></div>
                 </div>
@@ -63,11 +63,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("https://ieeexplore.ieee.org/document/10475866", "_blank")}>
-                  <img src="assets/img/publications/020.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/020.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/020.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/020.png)`,
                     }}
                   ></div>
                 </div>
@@ -103,11 +103,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/019.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/019.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/019.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/019.png)`,
                     }}
                   ></div>
                 </div>
@@ -143,11 +143,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/018.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/018.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/018.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/018.png)`,
                     }}
                   ></div>
                 </div>
@@ -183,11 +183,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/017.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/017.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/017.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/017.png)`,
                     }}
                   ></div>
                 </div>
@@ -223,11 +223,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/016.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/016.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/016.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/016.png)`,
                     }}
                   ></div>
                 </div>
@@ -263,11 +263,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/015.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/015.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/015.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/015.png)`,
                     }}
                   ></div>
                 </div>
@@ -303,11 +303,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("https://link.springer.com/article/10.1007/s11042-024-18925-2", "_blank")}>
-                  <img src="assets/img/publications/014.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/014.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/014.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/014.png)`,
                     }}
                   ></div>
                 </div>
@@ -343,11 +343,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("https://link.springer.com/article/10.1007/s41870-024-01891-1", "_blank")}>
-                  <img src="assets/img/publications/013.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/013.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/013.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/013.png)`,
                     }}
                   ></div>
                 </div>
@@ -383,11 +383,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/012.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/012.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/012.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/012.png)`,
                     }}
                   ></div>
                 </div>
@@ -423,11 +423,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("https://www.joig.net/show-89-386-1.html", "_blank")}>
-                  <img src="assets/img/publications/011.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/011.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/011.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/011.png)`,
                     }}
                   ></div>
                 </div>
@@ -463,11 +463,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("https://doi.org/10.1016/j.array.2024.100351", "_blank")}>
-                  <img src="assets/img/publications/010.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/010.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/010.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/010.png)`,
                     }}
                   ></div>
                 </div>
@@ -503,11 +503,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("https://doi.org/10.1016/j.aiia.2024.05.003", "_blank")}>
-                  <img src="assets/img/publications/009.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/009.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/009.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/009.png)`,
                     }}
                   ></div>
                 </div>
@@ -543,11 +543,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("https://ieeexplore.ieee.org/document/10540120", "_blank")}>
-                  <img src="assets/img/publications/008.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/008.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/008.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/008.png)`,
                     }}
                   ></div>
                 </div>
@@ -583,11 +583,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("https://link.springer.com/article/10.1007/s11042-024-18685-z", "_blank")}>
-                  <img src="assets/img/publications/007.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/007.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/007.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/007.png)`,
                     }}
                   ></div>
                 </div>
@@ -623,11 +623,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/006.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/006.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/006.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/006.png)`,
                     }}
                   ></div>
                 </div>
@@ -663,11 +663,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/005.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/005.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/005.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/005.png)`,
                     }}
                   ></div>
                 </div>
@@ -703,11 +703,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/004.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/004.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/004.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/004.png)`,
                     }}
                   ></div>
                 </div>
@@ -743,11 +743,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/003.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/003.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/003.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/003.png)`,
                     }}
                   ></div>
                 </div>
@@ -783,11 +783,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/002.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/002.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/002.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/002.png)`,
                     }}
                   ></div>
                 </div>
@@ -823,11 +823,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open(" ", "_blank")}>
-                  <img src="assets/img/publications/001.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/001.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/001.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/001.png)`,
                     }}
                   ></div>
                 </div>
@@ -863,11 +863,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("http://dx.doi.org/10.1109/ACCESS.2023.3312217", "_blank")}>
-                  <img src="assets/img/publications/1.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/1.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/1.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/1.png)`,
                     }}
                   ></div>
                 </div>
@@ -900,11 +900,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("http://dx.doi.org/10.1109/ACCESS.2024.3356551", "_blank")}>
-                  <img src="assets/img/publications/2.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/2.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/2.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/2.png)`,
                     }}
                   ></div>
                 </div>
@@ -937,11 +937,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("http://dx.doi.org/10.1007/s42452-023-05587-2", "_blank")}>
-                  <img src="assets/img/publications/3.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/3.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/3.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/3.png)`,
                     }}
                   ></div>
                 </div>
@@ -976,11 +976,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("http://dx.doi.org/10.1016/j.softx.2023.101611", "_blank")}>
-                  <img src="assets/img/publications/4.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/4.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/4.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/4.png)`,
                     }}
                   ></div>
                 </div>
@@ -1016,11 +1016,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("http://dx.doi.org/10.1007/978-3-031-45438-7_1", "_blank")}>
-                  <img src="assets/img/publications/5.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/5.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/5.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/5.png)`,
                     }}
                   ></div>
                 </div>
@@ -1056,11 +1056,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("http://dx.doi.org/10.15359/ru.37-1.23", "_blank")}>
-                  <img src="assets/img/publications/6.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/6.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/6.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/6.png)`,
                     }}
                   ></div>
                 </div>
@@ -1096,11 +1096,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("http://dx.doi.org/10.1007/978-3-031-24985-3_16", "_blank")}>
-                  <img src="assets/img/publications/7.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/7.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/7.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/7.png)`,
                     }}
                   ></div>
                 </div>
@@ -1136,11 +1136,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("http://dx.doi.org/10.1109/ACCESS.2023.3331316", "_blank")}>
-                  <img src="assets/img/publications/8.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/8.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/8.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/8.png)`,
                     }}
                   ></div>
                 </div>
@@ -1176,11 +1176,11 @@ const Publications = () => {
               <div className="list_inner">
                 <div className="image" onClick={() => 
                   window.open("http://dx.doi.org/10.1109/ETCM56276.2022.9935736", "_blank")}>
-                  <img src="assets/img/publications/9.png" alt="thumb" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/publications/9.png`} alt="thumb" />
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(assets/img/publications/9.png)",
+                      backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/publications/9.png)`,
                     }}
                   ></div>
                 </div>

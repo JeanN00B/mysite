@@ -45,7 +45,7 @@ const HomeLight = () => {
             <div className="leftpart_inner">
               <div className="logo">
                 <Tab style={{listStyleType: 'none'}}>
-                  <img src="/assets/img/logo/dark.png" alt="brand" />
+                  <img src={`${process.env.PUBLIC_URL}/assets/img/logo/dark.png`} alt="brand" />
                 </Tab>
               </div>
               {/* END LOGO */}
@@ -55,7 +55,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/home-run.svg"
+                      src={`${process.env.PUBLIC_URL}/assets/img/svg/home-run.svg`}
                       alt="homerun"
                     />
                     <span className="menu_content">Home</span>
@@ -63,7 +63,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/avatar.svg"
+                      src={`${process.env.PUBLIC_URL}/assets/img/svg/avatar.svg`}
                       alt="avatar"
                     />
                     <span className="menu_content">About</span>
@@ -71,7 +71,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/paper.svg"
+                      src={`${process.env.PUBLIC_URL}/assets/img/svg/paper.svg`}
                       alt="paper"
                     />
                     <span className="menu_content">Research</span>
@@ -80,7 +80,7 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/mail.svg"
+                      src={`${process.env.PUBLIC_URL}/assets/img/svg/mail.svg`}
                       alt="mail"
                     />
                     <span className="menu_content">Contact</span>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Intro = () => {
   const introContent = {
-    image: "assets/img/slider/1.jpg",
+    image: `${process.env.PUBLIC_URL}/assets/img/slider/1.jpg`,
     name: "Leo Thomas Ramos",
     designation: "Artificial Intelligence Engineer and Researcher",
     text: (

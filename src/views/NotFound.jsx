@@ -13,19 +13,19 @@ const NotFound = () => {
           <div className="leftpart_inner">
             <div className="logo">
               <Link className="navbar-brand" to="/">
-                <img src="/assets/img/logo/dark.png" alt="brand" />
+                <img src={`${process.env.PUBLIC_URL}/assets/img/logo/dark.png`} alt="brand" />
               </Link>
             </div>
             {/* END LOGO */}
             <div className="copyright">
               <p>
-                &copy; 2021 Tokyo <br /> Created by
+                &copy; {new Date().getFullYear()} Leo Thomas <br /> Created by
                 <a
-                  href="https://themeforest.net/user/ib-themes"
+                  href="https://www.linkedin.com/in/jean-camacho-126126212/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Ib-Themes
+                  Jean Camacho - Fullstack Developer
                 </a>
               </p>
             </div>
@@ -57,13 +57,13 @@ const NotFound = () => {
         <footer className="footer-wrapper">
           <div className="copyright">
             <p>
-              &copy; 2021 Tokyo Created by
+              &copy; {new Date().getFullYear()} Leo Thomas <br /> Created by
               <a
-                href="https://themeforest.net/user/ib-themes"
+                href="https://www.linkedin.com/in/jean-camacho-126126212/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Ib-Themes
+                Jean Camacho - Fullstack Developer
               </a>
             </p>
           </div>

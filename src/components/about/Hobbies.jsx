@@ -44,7 +44,7 @@ const Hobbies = () => {
         {item?.resume?.map((value) =>(
           <li key={value.id} style={{ display: 'inline-block'}}>
             <div className="list_inner">
-              <img className="svg" src={`/assets/img/svg/${value.img}`} alt={value.img} />
+              <img className="svg" src={`${process.env.PUBLIC_URL}/assets/img/svg/${value.img}`} alt={value.img} />
               <p>{value.description}</p>
             </div>
           </li>
